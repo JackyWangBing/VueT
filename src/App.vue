@@ -10,16 +10,20 @@
       <Button type="primary">Button</Button>
     </div>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+    <Login />
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import Login from './components/Login.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    HelloWorld,
+    Login
   }
 }
 </script>
